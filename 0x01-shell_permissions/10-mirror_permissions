@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo usermod -a -G group hello olleh
+chmod --reference=hello olleh
