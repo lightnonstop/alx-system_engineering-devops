@@ -1,2 +1,2 @@
 !#/bin/bash
-find . -type d -empty -exec ls -al '{}'+ | find . -type f -empty -exec ls -al '{}'+
+find . -type d -empty -exec ls -al '{}' + | find . -type f -empty -exec ls -al '{}' +
